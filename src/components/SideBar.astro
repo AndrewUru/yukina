@@ -60,7 +60,7 @@ const categories = await GetCategories();
         </a>
       ))
     ) : (
-      <p class="text-[var(--text-color-lighten)]">No categories available.</p>
+      <p class="text-[var(--text-color-lighten)]">Sin categorías disponibles.</p>
     )}
   </div>
 
@@ -70,7 +70,7 @@ const categories = await GetCategories();
     style=`animation-delay: calc(var(--onload-animation-delay) + 2 * var(--onload-animation-interval));`
   >
     <div class="title m-[0.375rem]">
-      <p class="text-xl font-bold pl-4 text-[var(--text-color)]">标签</p>
+      <p class="text-xl font-bold pl-4 text-[var(--text-color)]">Etiqueta</p>
     </div>
     <div class="flex flex-row flex-wrap max-w-[224px]">
       {tags && Array.from(tags.keys()).length > 0 ? (
@@ -85,7 +85,7 @@ const categories = await GetCategories();
           </a>
         ))
       ) : (
-        <p class="text-[var(--text-color-lighten)]">No tags available.</p>
+        <p class="text-[var(--text-color-lighten)]">Sin etiquetas disponibles.</p>
       )}
     </div>
   </div>

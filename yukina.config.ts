@@ -6,7 +6,7 @@ export const YukinaConfig = {
     "Tienda online de difusores de aromas y aceites esenciales. Transformamos tu ambiente con bienestar y relajación.",
 
   IconfontURL: "//at.alicdn.com/t/c/font_4507154_ls2dlyz0b1a.css",
-  Avatar: "https://s2.loli.net/2024/08/20/MwPtbr72mRxjsev.webp",
+  Avatar: "https://elsaltoweb.es/wp-content/uploads/2024/12/logo-2.webp",
 
   Username: "Difusor Aromas",
   Sign: "Vive la experiencia sensorial.",
@@ -18,7 +18,7 @@ export const YukinaConfig = {
     },
     {
       icon: "ic-facebook",
-      link: "https://facebook.com/difusoraromas",
+      link: "https://www.facebook.com/difusor.aromas.2023",
     },
     {
       icon: "ic-twitter",
