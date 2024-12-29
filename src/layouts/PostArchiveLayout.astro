@@ -25,7 +25,6 @@ const { archiveMap, title, subTitle, headerImg, hashedSlug } = Astro.props;
   headerImg={headerImg}
   hashedSlug={hashedSlug}
 >
-<<<<<<< HEAD
 	<div class="archives">
 		{
 			Array.from(archiveMap.keys()).map((year) => (
@@ -47,29 +46,6 @@ const { archiveMap, title, subTitle, headerImg, hashedSlug } = Astro.props;
 			))
 		}
 	</div>
-=======
-  <div class="archives">
-    {
-      archiveMap.keys().map((year) => (
-        <div>
-          <ArchiveYearTitle year={year} count={archiveMap.get(year)!.length} />
-          <ul>
-            {archiveMap.get(year)?.map((entry) => (
-              <li>
-                <ArchivePost
-                  slug={entry.slug}
-                  title={entry.title}
-                  pubilished={entry.date}
-                  tags={entry.tags}
-                />
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))
-    }
-  </div>
->>>>>>> 1daf35405b4fec181ef6adba86d008139394ed72
 </Main>
 
 <style>

@@ -64,11 +64,7 @@ export async function GetArchives() {
   }
 
   const sortedArchives = new Map(
-<<<<<<< HEAD
     [...archives.entries()].sort((a, b) => b[0] - a[0])
-=======
-    [...archives.entries()].sort((a, b) => b[0] - a[0]),
->>>>>>> 1daf35405b4fec181ef6adba86d008139394ed72
   );
   sortedArchives.forEach((value) => {
     value.sort((a, b) => (a.date > b.date ? -1 : 1));
