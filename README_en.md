@@ -1,9 +1,11 @@
 # Yukina - Yukina
+
 A simple and elegant Astro blog template.
 
-![Preview](https://s2.loli.net/2024/11/23/uKgnwaWxeZ7RbP5.jpg)
+![Preview](https://s2.loli.net/2024/12/06/KQlEiph216mOZdy.webp)
 
 ## Demo Preview Link
+
 [🖥️ Live Demo (Vercel)](https://yukina-blog.vercel.app) |
 [🖥️ WhitePaper233's Blog (may not be the latest version)](https://yukina-blog.vercel.app)
 
@@ -18,6 +20,7 @@ Go to the [Node.js official website](https://nodejs.org/) to download and instal
 ```bash
 corepack enable
 ```
+
 ### 3. Install Yarn version 4.5.1 or above
 
 ```bash
@@ -52,30 +55,29 @@ yarn preview
 
 ### Short-term
 
-✅ - Completed | 🚧 - In Progress | ⏳ - Planned
+✅ - Completed | 🧪 - Testing | 🚧 - In Progress | ⏳ - Planned
 
-| Status | Project |
-| --- | --- |
-| ✅ | Basic functionality implementation |
-| 🚧 | Refactor some code and optimize overall structure |
-| 🚧 | Optimize animation effects |
-| 🚧 | Mobile adaptation |
-| 🚧 | Optimize website performance |
-| ⏳ | Adjustable colors |
-| ⏳ | Add RSS, SiteMap, etc. |
-| ⏳ | More build options (e.g., SLUG generation method) |
-| ⏳ | Add Live2D character |
-| ⏳ | Search functionality |
-| ⏳ | i18n |
+| Status | Project                                           |
+| ------ | ------------------------------------------------- |
+| 🧪     | Basic functionality implementation                |
+| 🚧     | Refactor some code and optimize overall structure |
+| 🚧     | Optimize animation effects                        |
+| 🚧     | Mobile adaptation                                 |
+| 🚧     | Optimize website performance                      |
+| 🧪     | Adjustable colors                                 |
+| ⏳     | Add RSS, SiteMap, etc.                            |
+| ⏳     | More build options (e.g., SLUG generation method) |
+| ⏳     | Add Live2D character                              |
+| 🧪     | Search functionality                              |
+| 🧪     | i18n                                              |
 
 ### Long-term
 
-| Status | Project |
-| --- | --- |
-| ⏳ | Develop a CLI and a small CMS for easier management |
-| ⏳ | Slidev components |
-| ⏳ | More Markdown components |
-
+| Status | Project                                             |
+| ------ | --------------------------------------------------- |
+| ⏳     | Develop a CLI and a small CMS for easier management |
+| ⏳     | Slidev components                                   |
+| ⏳     | More Markdown components                            |
 
 ## 🙏 Special Thanks
 

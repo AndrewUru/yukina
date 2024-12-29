@@ -1,9 +1,14 @@
+<<<<<<< HEAD:src/pages/about.md
 ---
 layout: "../layouts/PostLayout.astro"
 ---
+=======
+# 特别感谢
+>>>>>>> 1daf35405b4fec181ef6adba86d008139394ed72:src/content/spec/about.md
 
 # Acerca de DifusorAromas
 
+<<<<<<< HEAD:src/pages/about.md
 **DifusorAromas.com** nace con la intención de llevar bienestar y relajación a los hogares, gracias a nuestros difusores de aromas y aceites esenciales cuidadosamente seleccionados. Creemos que un ambiente agradable influye de forma positiva en nuestro estado de ánimo y calidad de vida.
 
 ## Especial agradecimiento
@@ -23,3 +28,6 @@ Ofrecer productos de la más alta calidad, fomentar la relajación y la armonía
 **Email**: [info@difusoraromas.com](mailto:info@difusoraromas.com)
 
 ¡Gracias por visitar **DifusorAromas.com** y disfrutar con nosotros de un ambiente lleno de sensaciones agradables!
+=======
+- [Astro Fuwari 模板](https://github.com/saicaca/fuwari) 提供了主要的设计思路和一部分代码实现
+>>>>>>> 1daf35405b4fec181ef6adba86d008139394ed72:src/content/spec/about.md
