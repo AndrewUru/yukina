@@ -1,0 +1,16 @@
+{
+  "ftp-simple": {
+    "config": [
+      {
+        "name": "IonosSFTP",
+        "host": "access947762023.webspace-data.io",
+        "port": 22,
+        "type": "sftp",
+        "username": "u110832203",
+        "password": "An32santos",
+        "remotePath": "/",
+        "uploadOnSave": true
+      }
+    ]
+  }
+}
