@@ -1,9 +1,9 @@
 ---
 import { changeLanguage } from "i18next";
-import PostArchiveLayout from "../../layouts/PostArchiveLayout.astro";
-import { GetTags, type Archive } from "../../utils/content";
+import PostArchiveLayout from "../../../layouts/PostArchiveLayout.astro";
+import { GetTags, type Archive } from "../../../utils/content";
 
-changeLanguage("es");
+changeLanguage("fr");
 
 export async function getStaticPaths() {
     const tags = await GetTags();

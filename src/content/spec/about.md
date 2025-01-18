@@ -2,7 +2,6 @@
 
 # Acerca de DifusorAromas
 
-<<<<<<< HEAD:src/pages/about.md
 **DifusorAromas.com** nace con la intención de llevar bienestar y relajación a los hogares, gracias a nuestros difusores de aromas y aceites esenciales cuidadosamente seleccionados. Creemos que un ambiente agradable influye de forma positiva en nuestro estado de ánimo y calidad de vida.
 
 ## Especial agradecimiento
@@ -21,4 +20,6 @@ Ofrecer productos de la más alta calidad, fomentar la relajación y la armonía
 ¿Tienes preguntas o comentarios? No dudes en escribirnos:  
 **Email**: [atobio459@gmail.com](mailto:atobio459@gmail.com)
 
-# ¡Gracias por visitar **DifusorAromas.com** y disfrutar con nosotros de un ambiente lleno de sensaciones agradables!
+# ¡Gracias por visitar **DifusorAromas.com**
+
+y disfrutar con nosotros de un ambiente lleno de sensaciones agradables!
