@@ -4,7 +4,7 @@ import type { Configuration } from "./src/types/config";
 const YukinaConfig: Configuration = {
   title: "AlvaFusión",
   subTitle: "Designs",
-  brandTitle: "Alva Fusión Designs",
+  brandTitle: "AlvaFusión",
 
   description: "Tejidos a mano con amor",
 
