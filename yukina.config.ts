@@ -2,11 +2,11 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+  title: "Alva Fusion Designs",
+  subTitle: "Tejidos a mano con amor",
+  brandTitle: "Alva Fusion Designs",
 
-  description: "Demo Site",
+  description: "Tejidos a mano con amor",
 
   site: "https://yukina-blog.vercel.app",
 
@@ -31,9 +31,10 @@ const YukinaConfig: Configuration = {
     },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
-  avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  username: "Alva y Viviana",
+  sign: "Hola somos AlvaFusión.",
+  avatarUrl:
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/02/quienes-somos.jpg",
   socialLinks: [
     {
       icon: "line-md:github-loop",
@@ -54,14 +55,14 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
-    "https://s2.loli.net/2025/01/25/PBvHFjr5yDu6t4a.webp",
-    "https://s2.loli.net/2025/01/25/6bKcwHZigzlM4mJ.webp",
-    "https://s2.loli.net/2025/01/25/H9WgEK6qNTcpFiS.webp",
-    "https://s2.loli.net/2025/01/25/njNVtuUMzxs81RI.webp",
-    "https://s2.loli.net/2025/01/25/tozsJ8QHAjFN3Mm.webp",
-    "https://s2.loli.net/2025/01/25/Pm89OveZq7NWUxF.webp",
-    "https://s2.loli.net/2025/01/25/UCYKvc1ZhgPHB9m.webp",
-    "https://s2.loli.net/2025/01/25/JjpLOW8VSmufzlA.webp",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/01/21169.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/01/21148.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/01/tienda-e1675170961294.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/02/279704705_689436725657428_3187083248120010225_n.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/01/21101.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/02/carousel-portada-scaled.jpg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/02/lana-portada2.jpeg",
+    "https://alvafusiondesigns.com/wp-content/uploads/2023/01/21169.jpg",
   ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
