@@ -19,6 +19,18 @@ const { page } = Astro.props;
 ---
 
 <Main>
+  <!-- Hero Section -->
+  <section
+    class="relative flex h-96 items-center justify-center bg-cover bg-center text-white"
+    style="background-image: url('image.png');"
+  >
+    <div class="rounded-lg bg-black bg-opacity-50 p-10 text-center">
+      <h2 class="text-4xl font-bold">
+        Te presentamos parte de nuestra colección
+      </h2>
+      <p class="mt-2 text-lg">Tejidos hechos a mano con amor y conciencia.</p>
+    </div>
+  </section>
   <div class="space-y-8">
     <div class="w-full space-y-4">
       {
@@ -43,6 +55,45 @@ const { page } = Astro.props;
         ))
       }
     </div>
+
+    <!-- Historia -->
+    <section class="bg-gray-200 py-10">
+      <div class="container mx-auto px-6">
+        <h2 class="mb-6 text-center text-3xl font-semibold text-gray-800">
+          Tejiendo nuestra historia
+        </h2>
+        <p class="mx-auto max-w-2xl text-center text-gray-700">
+          Alva Fusión Designs surge en el 2022, después de muchos años de querer
+          tener un emprendimiento madre-hija donde poder crear y mostrar la
+          pasión que nos une: TEJER JUNTAS.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seguridad y Envíos -->
+    <section class="container mx-auto px-6 py-10 text-center">
+      <h2 class="text-3xl font-semibold text-gray-800">
+        Máxima seguridad en envíos
+      </h2>
+      <p class="mt-2 text-gray-700">100% COMPRA SEGURA</p>
+      <div class="mt-6 flex justify-center space-x-10">
+        <img
+          src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/PayPal.svg.png"
+          alt="PayPal"
+          class="h-12"
+        />
+        <img
+          src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/Bizum.svg.png"
+          alt="Bizum"
+          class="h-12"
+        />
+        <img
+          src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/Logo_Correos_2019.svg.png"
+          alt="Correos de España"
+          class="h-12"
+        />
+      </div>
+    </section>
     <Pagination
       class="onload-animation"
       lastPage={page.lastPage}

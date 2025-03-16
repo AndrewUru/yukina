@@ -2,9 +2,9 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Alva Fusion Designs",
+  title: "Alva Fusión Designs",
   subTitle: "Tejidos a mano con amor",
-  brandTitle: "Alva Fusion Designs",
+  brandTitle: "Alva Fusión Designs",
 
   description: "Tejidos a mano con amor",
 
