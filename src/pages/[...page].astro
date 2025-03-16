@@ -70,6 +70,15 @@ const { page } = Astro.props;
       </div>
     </section>
 
+    <Pagination
+      class="onload-animation"
+      lastPage={page.lastPage}
+      current={page.currentPage}
+      prevURL={page.url.prev}
+      nextURL={page.url.next}
+      style={`animation-delay: calc(var(--onload-animation-delay) + ${page.data.length + 1} * var(--onload-animation-interval));`}
+    />
+
     <!-- Seguridad y Envíos -->
     <section class="container mx-auto px-6 py-10 text-center">
       <h2 class="text-3xl font-semibold text-gray-800">
@@ -94,14 +103,5 @@ const { page } = Astro.props;
         />
       </div>
     </section>
-
-    <Pagination
-      class="onload-animation"
-      lastPage={page.lastPage}
-      current={page.currentPage}
-      prevURL={page.url.prev}
-      nextURL={page.url.next}
-      style={`animation-delay: calc(var(--onload-animation-delay) + ${page.data.length + 1} * var(--onload-animation-interval));`}
-    />
   </div>
 </Main>
