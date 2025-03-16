@@ -76,24 +76,25 @@ const { page } = Astro.props;
         Máxima seguridad en envíos
       </h2>
       <p class="mt-2 text-gray-700">100% COMPRA SEGURA</p>
-      <div class="mt-6 flex justify-center space-x-10">
+      <div class="mt-6 flex flex-wrap justify-center gap-4">
         <img
           src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/PayPal.svg.png"
           alt="PayPal"
-          class="h-12"
+          class="h-12 max-w-full sm:h-10 md:h-16"
         />
         <img
           src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/Bizum.svg.png"
           alt="Bizum"
-          class="h-12"
+          class="h-12 max-w-full sm:h-10 md:h-16"
         />
         <img
           src="https://alvafusiondesigns.com/wp-content/uploads/2023/02/Logo_Correos_2019.svg.png"
           alt="Correos de España"
-          class="h-12"
+          class="h-12 max-w-full sm:h-10 md:h-16"
         />
       </div>
     </section>
+
     <Pagination
       class="onload-animation"
       lastPage={page.lastPage}
