@@ -2,8 +2,8 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Alva Fusión Designs",
-  subTitle: "Tejidos a mano con amor",
+  title: "AlvaFusión",
+  subTitle: "Designs",
   brandTitle: "Alva Fusión Designs",
 
   description: "Tejidos a mano con amor",
@@ -32,7 +32,7 @@ const YukinaConfig: Configuration = {
   ],
 
   username: "Alva y Viviana",
-  sign: "Hola somos AlvaFusión.",
+  sign: "AlvaFusión.",
   avatarUrl:
     "https://alvafusiondesigns.com/wp-content/uploads/2023/02/quienes-somos.jpg",
   socialLinks: [
