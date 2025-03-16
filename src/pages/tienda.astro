@@ -13,4 +13,44 @@ interface Props {
   published?: Date;
 }
 const { title, subTitle, bannerImage, published } = Astro.props;
+
+const url = "https://alvafusiondesigns.com/wp-json/wc/v3/products";
+const consumerKey = "ck_2ef54305a84705add80d08544d8d39383283d485"; // Tu clave pública
+const consumerSecret = "cs_8f282e44597098c5b27d20726252cfa942d39017"; // Tu clave secreta
+
+const response = await fetch(
+  `${url}?consumer_key=${consumerKey}&consumer_secret=${consumerSecret}`,
+);
+const productos = await response.json();
 ---
+
+<html>
+  <head>
+    <title>Productos</title>
+  </head>
+  <body>
+    <h1>Lista de Productos</h1>
+    <ul>
+      {
+        productos.map(
+          (producto: {
+            id: number;
+            name: string;
+            images: { src: string }[];
+            price: string;
+          }) => (
+            <li>
+              <h2>{producto.name}</h2>
+              <img
+                src={producto.images[0]?.src}
+                alt={producto.name}
+                width="200"
+              />
+              <p>Precio: {producto.price} €</p>
+            </li>
+          ),
+        )
+      }
+    </ul>
+  </body>
+</html>
