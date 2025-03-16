@@ -26,8 +26,8 @@ const YukinaConfig: Configuration = {
       href: "/about",
     },
     {
-      nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
+      nameKey: I18nKeys.nav_bar_tienda,
+      href: "/tienda",
     },
   ],
 
