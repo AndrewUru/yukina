@@ -2,8 +2,8 @@
 title: Tejido Artesanal
 published: 2025-01-20
 description: El Arte del Tejido Artesanal en Alva Fusión Designs.
-tags: [Markdown, Blogging]
-category: Examples
+tags: [Noticias, Información]
+category: Sobre nosotras
 licenseName: "Unlicensed"
 author: emn178
 sourceLink: "https://github.com/emn178/markdown"
