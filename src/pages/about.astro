@@ -22,13 +22,11 @@ const { title, subTitle, bannerImage, published } = Astro.props;
       <Markdown>
         <!-- About Section -->
 
-        <h2
-          class="mb-6 text-center text-3xl font-semibold text-[var(--color-text)] dark:text-white"
-        >
+        <h2 class="mb-6 text-[var(--color-text)] dark:text-white">
           Sobre Alva Fusión Designs
         </h2>
         <div
-          class="mx-auto max-w-3xl rounded-lg bg-white p-6 text-center shadow-lg dark:bg-gray-800"
+          class="rounded-lg bg-white p-6 text-center shadow-lg dark:bg-gray-900"
         >
           <p class="text-lg text-[var(--color-text)] dark:text-gray-300">
             Alva Fusión Designs nace en 2022 como un proyecto madre-hija con el
@@ -52,16 +50,12 @@ const { title, subTitle, bannerImage, published } = Astro.props;
 
         <!-- Agradecimientos -->
 
-        <h2
-          class="mb-6 text-3xl font-semibold text-[var(--color-text)] dark:text-white"
-        >
+        <h2 class="mb-6 font-semibold text-[var(--color-text)] dark:text-white">
           Agradecimientos
         </h2>
-        <div
-          class="mx-auto max-w-3xl rounded-lg bg-white p-6 shadow-lg dark:bg-gray-800"
-        >
+        <div class="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900">
           <p class="text-lg text-[var(--color-text)] dark:text-gray-300">
-            Queremos expresar nuestro más sincero agradecimiento a:
+            Queremos expresar nuestro agradecimiento a:
           </p>
           <ul
             class="mt-4 space-y-2 text-[var(--color-text)] dark:text-gray-300"
@@ -87,7 +81,7 @@ const { title, subTitle, bannerImage, published } = Astro.props;
 
 <style>
   .article-wrapper {
-    @apply w-full rounded-2xl bg-[var(--card-color)] p-10;
+    @apply w-full rounded-2xl;
   }
   .article {
     @apply flex flex-col;

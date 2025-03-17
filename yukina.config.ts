@@ -37,16 +37,16 @@ const YukinaConfig: Configuration = {
     "https://alvafusiondesigns.com/wp-content/uploads/2023/02/quienes-somos.jpg",
   socialLinks: [
     {
-      icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      icon: "mdi:instagram",
+      link: "https://www.instagram.com/tu_usuario",
     },
     {
-      icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      icon: "mdi:facebook",
+      link: "https://www.facebook.com/tu_pagina",
     },
     {
-      icon: "mingcute:netease-music-line",
-      link: "https://music.163.com/#/user/home?id=125291648",
+      icon: "mdi:whatsapp",
+      link: "https://wa.me/tu_numero",
     },
   ],
   maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3
