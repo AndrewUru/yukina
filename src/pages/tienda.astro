@@ -24,33 +24,32 @@ const response = await fetch(
 const productos = await response.json();
 ---
 
-<html>
-  <head>
-    <title>Productos</title>
-  </head>
-  <body>
-    <h1>Lista de Productos</h1>
-    <ul>
-      {
-        productos.map(
-          (producto: {
-            id: number;
-            name: string;
-            images: { src: string }[];
-            price: string;
-          }) => (
-            <li>
-              <h2>{producto.name}</h2>
-              <img
-                src={producto.images[0]?.src}
-                alt={producto.name}
-                width="200"
-              />
-              <p>Precio: {producto.price} €</p>
-            </li>
-          ),
-        )
-      }
-    </ul>
-  </body>
-</html>
+<Main title={title} subTitle={subTitle} bannerImage={bannerImage}
+  ><html>
+    <body>
+      <h1>Lista de Productos</h1>
+      <ul>
+        {
+          productos.map(
+            (producto: {
+              id: number;
+              name: string;
+              images: { src: string }[];
+              price: string;
+            }) => (
+              <li>
+                <h2>{producto.name}</h2>
+                <img
+                  src={producto.images[0]?.src}
+                  alt={producto.name}
+                  width="200"
+                />
+                <p>Precio: {producto.price} €</p>
+              </li>
+            ),
+          )
+        }
+      </ul>
+    </body>
+  </html>
+</Main>
