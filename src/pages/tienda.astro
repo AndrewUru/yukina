@@ -1,111 +1,37 @@
 ---
 import { getEntry, render } from "astro:content";
 import Main from "../layouts/MainLayout.astro";
-import Markdown from "../components/Markdown.astro";
-import CopyRight from "../components/misc/CopyRight.astro";
 
 const aboutPost = await getEntry("specs", "tienda");
 const { Content } = await render(aboutPost!);
-interface Props {
-  title?: string;
-  subTitle?: string;
-  bannerImage?: string;
-  published?: Date;
+
+let productos = [];
+try {
+  const response = await fetch("/api/products"); // Ahora usa la API interna
+  const data = await response.json();
+  if (!data.error) productos = data;
+} catch (error) {
+  console.error("Error al obtener productos:", error);
 }
-const { title, subTitle, bannerImage, published } = Astro.props;
-
-const url = "https://alvafusiondesigns.com/wp-json/wc/v3/products";
-const consumerKey = "ck_2ef54305a84705add80d08544d8d39383283d485"; // Tu clave pública
-const consumerSecret = "cs_8f282e44597098c5b27d20726252cfa942d39017"; // Tu clave secreta
-
-const response = await fetch(
-  `${url}?consumer_key=${consumerKey}&consumer_secret=${consumerSecret}`,
-);
-const productos = await response.json();
 ---
 
-<Main title={title} subTitle={subTitle} bannerImage={bannerImage}
-  ><html>
-    <body>
-      <h1>Lista de Productos</h1>
-      <ul class="product-list">
-        {
-          productos.map(
-            (producto: {
-              id: number;
-              name: string;
-              price: string;
-              images: { src: string }[];
-            }) => (
-              <>
-                <li class="product-card">
-                  <img src={producto.images[0]?.src} alt={producto.name} />
-                  <h2>{producto.name}</h2>
-                  <p class="price">{producto.price} €</p>
-                </li>
-              </>
-            ),
-          )
-        }
-      </ul>
-    </body>
-  </html>
-</Main>
-
-<style>
-  .product-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    list-style: none;
-  }
-
-  .product-card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    transition:
-      transform 0.3s ease-in-out,
-      box-shadow 0.3s ease-in-out;
-  }
-
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  }
-
-  .product-card img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-
-  .product-card h2 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: #333;
-  }
-
-  .product-card p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 10px;
-  }
-
-  .product-card .price {
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #ff6600;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .product-list {
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+<Main title="Tienda" subTitle="Productos disponibles">
+  <h1>Lista de Productos</h1>
+  <ul class="product-list">
+    {
+      productos.map(
+        (producto: {
+          images: { src: string }[];
+          name: string;
+          price: number;
+        }) => (
+          <li class="product-card">
+            <img src={producto.images[0]?.src} alt={producto.name} />
+            <h2>{producto.name}</h2>
+            <p class="price">{producto.price} €</p>
+          </li>
+        ),
+      )
     }
-  }
-</style>
+  </ul>
+</Main>
