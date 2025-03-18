@@ -61,7 +61,7 @@ try {
             />
             <h2>{producto.name}</h2>
             <p class="price">{producto.price} €</p>
-            <p>{producto.description}</p>
+            <p set:html={producto.description}></p> <!-- Ahora renderiza HTML -->
             <a href={producto.url} class="buy-button" target="_blank">
               Ver Producto
             </a>
