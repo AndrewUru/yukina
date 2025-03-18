@@ -1,40 +1,75 @@
 ---
-import { getEntry, render } from "astro:content";
 import Main from "../layouts/MainLayout.astro";
 
-const aboutPost = await getEntry("specs", "tienda");
-const { Content } = await render(aboutPost!);
+const API_URL = "https://cms.alvafusiondesigns.com/wp-json/wc/v3";
+const CONSUMER_KEY = "ck_4355c228b067cfe450abf637857807dc5b36d07e";
+const CONSUMER_SECRET = "cs_50fa7e9456f18d61525e9bd52efd754407fb5dab";
 
 interface Producto {
   id: number;
   name: string;
   price: number;
   description: string;
+  image: string;
+  url: string;
 }
 
 let productos: Producto[] = [];
+let error = "";
+
 try {
-  const response = await fetch("/api/products"); // Obtiene datos del JSON
-  const data = await response.json();
-  if (!data.error) productos = data;
-} catch (error) {
-  console.error("Error al obtener productos:", error);
+  const response = await fetch(
+    `${API_URL}/products?consumer_key=${CONSUMER_KEY}&consumer_secret=${CONSUMER_SECRET}`,
+  );
+
+  if (!response.ok) {
+    error = `Error en la API: ${response.status} ${response.statusText}`;
+  } else {
+    const data = await response.json();
+
+    if (data.length === 0) {
+      error = "No hay productos disponibles.";
+    } else {
+      productos = data.map((producto) => ({
+        id: producto.id,
+        name: producto.name,
+        price: producto.price,
+        description: producto.description,
+        image: producto.images?.[0]?.src || "", // Usa la primera imagen del producto
+        url: `https://cms.alvafusiondesigns.com/producto/${producto.slug}`, // URL correcta del producto
+      }));
+    }
+  }
+} catch (err) {
+  error = "No se pudo conectar con la API de WooCommerce.";
 }
 ---
 
 <Main title="Tienda" subTitle="Productos disponibles">
   <h1>Lista de Productos</h1>
-  <ul class="product-list">
-    {
-      productos.map((producto) => (
-        <li class="product-card">
-          <h2>{producto.name}</h2>
-          <p class="price">{producto.price} €</p>
-          <p>{producto.description}</p>
-        </li>
-      ))
-    }
-  </ul>
+  {
+    error ? (
+      <p style="color: red;">{error}</p>
+    ) : (
+      <ul class="product-list">
+        {productos.map((producto) => (
+          <li class="product-card" key={producto.id}>
+            <img
+              src={producto.image}
+              alt={producto.name}
+              class="product-image"
+            />
+            <h2>{producto.name}</h2>
+            <p class="price">{producto.price} €</p>
+            <p>{producto.description}</p>
+            <a href={producto.url} class="buy-button" target="_blank">
+              Ver Producto
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
 </Main>
 
 <style>
@@ -60,5 +95,27 @@ try {
   .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .buy-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0073aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .buy-button:hover {
+    background: #005f8d;
   }
 </style>
