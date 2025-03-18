@@ -34,7 +34,7 @@ const YukinaConfig: Configuration = {
   username: "Alva y Viviana",
   sign: "AlvaFusión.",
   avatarUrl:
-    "https://alvafusiondesigns.com/wp-content/uploads/2023/02/quienes-somos.jpg",
+    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/quienes-somos.jpg",
   socialLinks: [
     {
       icon: "mdi:instagram",
