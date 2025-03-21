@@ -50,8 +50,6 @@ En **Alva Fusión Designs** encontrarás productos tejidos artesanalmente con ma
 
 Cada artículo en nuestra tienda pasa por un riguroso control de calidad, desde la selección de materiales hasta el tejido y acabado final. Comprando en Alva Fusión Designs apoyas la artesanía local y sostenible.
 
-📷 **Instagram:** [@alvafusiondesigns](https://instagram.com/alvafusiondesigns)  
-🔗 **Tienda Online:** [alvafusiondesigns.com](https://alvafusiondesigns.com/)  
-📌 **Pinterest:** [Ideas y decoración](https://pinterest.com/alvafusiondesigns)
+📷 **Instagram:** [@alvafusiondesigns](https://instagram.com/alvafusiondesigns)
 
 ✨ ¡Gracias por preferir lo hecho a mano! ✨

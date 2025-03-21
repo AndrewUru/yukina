@@ -1,73 +1,33 @@
 ---
-title: Tejido Artesanal
-published: 2025-01-20
-description: El Arte del Tejido Artesanal en Alva Fusión Designs.
-tags: [Noticias, Información]
-category: Sobre nosotras
-sourceLink: "https://github.com/emn178/markdown"
+title: Colección Amigurumis
+published: 2025-01-21
+description: Descubre nuestros encantadores amigurumis tejidos artesanalmente.
+tags: [Amigurumis, Handmade, Ganchillo]
+category: Colecciones
+sourceLink: "https://alvafusiondesigns.com/amigurumis"
 draft: false
 ---
 
-Bienvenidos a Alva Fusión Designs
+## ¿Qué son los Amigurumis?
 
-En Alva Fusión Designs encontrarás productos tejidos artesanalmente con materiales naturales y seguros. Descubre artículos exclusivos diseñados especialmente para ti y tu hogar.
+La palabra amigurumi proviene del japonés y significa "peluche tejido". Consiste en tejer pequeños muñecos mediante técnicas de ganchillo, creando figuras adorables y únicas.
 
-¿Por qué elegir nuestros productos?
+## Técnica de Creación
 
-Materiales ecológicos que respetan el medio ambiente.
+Nuestros amigurumis están realizados con la técnica de ganchillo en espiral, un método que permite un tejido continuo y sin costuras visibles. Esto hace que cada pieza sea particularmente resistente y suave al tacto.
 
-Diseños únicos y exclusivos, alejados de producciones masivas.
+El ganchillo permite crear innumerables formas y personajes, desde animales hasta personajes fantásticos. Todas estas piezas se unen cuidadosamente con aguja e hilo para dar vida a encantadores muñecos.
 
-Alta calidad, garantizando durabilidad y resistencia.
+## ¿Por qué elegir un Amigurumi?
 
-Hechos a mano con atención al detalle y pasión artesanal.
+- **Únicos y Personalizables**: Cada pieza es especial y puede adaptarse a tus preferencias.
+- **Seguros para Todos**: Elaborados con materiales hipoalergénicos.
+- **Perfectos para Regalar**: Ideales para niños, adultos o coleccionistas.
 
-Categorías destacadas
+## Explora Nuestra Colección
 
-👶 Para los más pequeños
+Visita nuestra tienda online y encuentra el amigurumi perfecto para ti o para regalar. Cada amigurumi es elaborado con amor, cuidado y mucha creatividad.
 
-Mantas de apego
+✨ ¡Lleva contigo un pedacito de arte hecho a mano! ✨
 
-Chupeteros personalizados
-
-Sonajeros artesanales
-
-🏡 Decoración artesanal para tu hogar
-
-Producto
-
-Uso o función
-
-Cojines tejidos
-
-Confort y estilo natural
-
-Cestas decorativas
-
-Organización y decoración
-
-Tapices
-
-Decoración exclusiva
-
-🎁 Accesorios únicos para regalar
-
-Amigurumis personalizados
-
-Bufandas y gorros tejidos
-
-Bolsos y mochilas artesanales
-
-Compra fácil y segura
-
-Métodos de pago: PayPal y Bizum.
-
-Envío gratuito a partir de 40€ (península y Baleares).
-
-Nuestro compromiso
-
-Cada artículo en nuestra tienda pasa por un riguroso control de calidad, desde la selección de materiales hasta el tejido y acabado final. Comprando en Alva Fusión Designs apoyas la artesanía local y sostenible.
-
-📷 Instagram: @alvafusiondesigns🔗 Tienda Online: alvafusiondesigns.com📌 Pinterest: Ideas y decoración
-
-✨ ¡Gracias por preferir lo hecho a mano! ✨
+📷 **Instagram:** [@alvafusiondesigns](https://instagram.com/alvafusiondesigns)
