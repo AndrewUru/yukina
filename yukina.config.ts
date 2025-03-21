@@ -38,15 +38,15 @@ const YukinaConfig: Configuration = {
   socialLinks: [
     {
       icon: "mdi:instagram",
-      link: "https://www.instagram.com/tu_usuario",
+      link: "https://www.instagram.com/alvafusiondesigns/",
     },
     {
       icon: "mdi:facebook",
-      link: "https://www.facebook.com/tu_pagina",
+      link: "https://www.facebook.com/viviana.machado.395",
     },
     {
       icon: "mdi:whatsapp",
-      link: "https://wa.me/tu_numero",
+      link: "https://wa.me/34643133867",
     },
   ],
   maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3
