@@ -55,12 +55,12 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
+    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/tienda-e1675170961294.jpg",
+    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/21148.jpg",
+    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/carousel-portada-scaled.jpg",
+    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/279704705_689436725657428_3187083248120010225_n.jpg",
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/1-1-e1675555990812.png",
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/21101.jpg",
-    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/21148.jpg",
-    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/tienda-e1675170961294.jpg",
-    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/279704705_689436725657428_3187083248120010225_n.jpg",
-    "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/carousel-portada-scaled.jpg",
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/img123.jpg",
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/01/21169.jpg",
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/lana-portada2.jpeg",
