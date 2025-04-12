@@ -8,7 +8,7 @@ const YukinaConfig: Configuration = {
 
   description: "Tejidos a mano con amor",
 
-  site: "https://yukina-blog.vercel.app",
+  site: "https://alvafusiondesigns.com",
 
   locale: "en", // set for website language and date format
 
@@ -67,7 +67,7 @@ const YukinaConfig: Configuration = {
     "https://cms.alvafusiondesigns.com/wp-content/uploads/2023/02/img83.jpg",
   ],
 
-  slugMode: "HASH", // 'RAW' | 'HASH'
+  slugMode: "RAW", // 'RAW' | 'HASH'
 
   license: {
     name: "CC BY-NC-SA 4.0",

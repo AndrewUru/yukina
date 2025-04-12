@@ -136,7 +136,7 @@ const { time, wordCount } = props.readingMetadata;
             </span>
             <span>|</span>
             <span>
-              {time}
+              {time < 1 ? "< 1" : Math.round(time)}
               {i18n(I18nKeys.post_card_minutes)}
             </span>
           </div>
