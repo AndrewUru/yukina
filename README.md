@@ -1,94 +1,90 @@
-# Yukina
+# 🧶 AlvaFusion Designs
 
-Simple and Elegant Astro Blog Template
+Bienvenido al repositorio de **AlvaFusion Designs**, una plataforma digital dedicada a la presentación y venta de productos artesanales como amigurumis, mantas y artículos tejidos a mano.
 
-![Preview](https://s2.loli.net/2025/01/26/S4URrsj9TFgOKAp.webp)
+Este proyecto une lo mejor del diseño moderno con herramientas potentes de desarrollo web para ofrecer una experiencia única tanto visual como funcional.
 
-[中文](https://github.com/WhitePaper233/yukina/blob/main/README_zh.md)
+---
 
-## Demo Preview Links
+## 🌐 Estructura del Proyecto
 
-[🖥️ Live Demo (Vercel)](https://yukina-blog.vercel.app) |
-[🖥️ WhitePaper233's Blog (possibly not the latest version)](https://whitepaper233.top/)
+- **Landing Page + Blog**: Desarrollados con [Astro.js](https://astro.build/) utilizando la plantilla [Yukina](https://github.com/WhitePaper233/yukina).
+- **Tienda Online**: Construida en WordPress con el plugin [WooCommerce](https://woocommerce.com/), alojada bajo el mismo dominio.
+- **Integraciones y APIs**: Se están implementando integraciones personalizadas entre Astro y WordPress mediante REST APIs para sincronizar productos, publicaciones y más.
 
-## 🛠️ Build Guide
+---
 
-### 1. Install Node.js version 22 or above
+## ✨ Características principales
 
-Go to the [Node.js official website](https://nodejs.org/) to download and install the latest version of Node.js.
+- 🌙 **Modo Oscuro/Claro automático**
+- 📱 **Diseño responsive y optimizado**
+- ⚡ **Carga rápida gracias a Astro Islands**
+- 🛒 **Gestión de productos con WooCommerce**
+- 🔗 Enlace entre landing/blog (Astro) y tienda (WordPress)
 
-### 2. Enable Corepack
+---
 
-```bash
-corepack enable
-```
+## 🚧 Estado del Proyecto
 
-### 3. Install pnpm
+> Este proyecto está en desarrollo activo.
 
-```bash
-corepack enable pnpm
-```
+- [x] Estructura base y diseño responsive
+- [x] Blog funcional con Markdown y vista previa
+- [x] Diseño personalizado adaptado a la identidad de AlvaFusion
+- [x] WooCommerce instalado y conectado al dominio
+- [ ] Página de producto personalizada
+- [ ] Integración completa con Checkout
+- [ ] API propia para sincronización de stock
+- [ ] Sistema de analíticas y remarketing
 
-### 4. Install Dependencies
+---
+
+## 📦 Instalación del Proyecto (Landing + Blog - Astro)
 
 ```bash
 pnpm install
-```
-
-### 5. Build Search Index
-
-```bash
-pnpm build
-```
-
-### 6. Start Development Server
-
-```bash
 pnpm dev
 ```
 
-### 7. Build Project
+O, si usas npm:
 
-```bash
-pnpm build
-```
+bash
+Copiar
+Editar
+npm install
+npm run dev
 
-### 8. Preview Project
+## 🖥️ Demo (Preview)
 
-```bash
-pnpm preview
-```
+Landing/blog: https://alvafusiondesigns.com (Astro)
 
-## 🗺️ Roadmap
+Tienda: https://alvafusiondesigns.com/tienda (WooCommerce)
 
-### Recent
+## 💡 Tecnologías Usadas
 
-✅ - Completed | 🧪 - In Testing | 🚧 - In Progress | ⏳ - Planned
+Astro.js
 
-| Status | Project                                             |
-| ------ | --------------------------------------------------- |
-| 🧪     | Basic feature implementation                        |
-| 🧪     | Refactoring some code, optimizing overall structure |
-| 🧪     | Optimizing animation effects                        |
-| 🧪     | Mobile adaptation                                   |
-| 🚧     | Optimizing website performance                      |
-| 🧪     | Adjustable colors                                   |
-| 🧪     | Adding RSS, SiteMap, and other features             |
-| 🧪     | More build options (e.g., SLUG generation methods)  |
-| ⏳     | Adding Live2D character                             |
-| 🧪     | Search functionality                                |
-| 🧪     | i18n                                                |
+TailwindCSS
 
-### Long-term
+WordPress
 
-| Status | Project                                        |
-| ------ | ---------------------------------------------- |
-| ⏳     | Developing an easy-to-manage CLI and small CMS |
-| ⏳     | Slidev components                              |
-| ⏳     | More Markdown components                       |
+WooCommerce
 
-## 🙏 Special Thanks
+Markdown, Svelte, TypeScript
 
-- [Hexo Shoka Theme](https://github.com/amehime/hexo-theme-shoka) for providing design ideas
+API REST para conexión entre front y tienda
 
-- [Astro Fuwari Template](https://github.com/saicaca/fuwari) for providing the main design ideas and some code implementations
+## 🤝 Contribuciones
+
+Este proyecto aún está en fase de construcción interna. Si deseas colaborar, reportar errores o sugerir mejoras, puedes abrir un issue o enviar un pull request.
+
+## 📄 Licencia y Créditos
+
+Este proyecto utiliza la plantilla Yukina, desarrollada por WhitePaper233, con ajustes y personalizaciones para adaptarse a la marca AlvaFusion Designs.
+
+© Copyright
+© 2025 AlvaFusion Designs
+Sitio desarrollado con Astro.js y la plantilla Yukina para la web principal, y WordPress + WooCommerce para la gestión de tienda online.
+El contenido, imágenes y productos son propiedad exclusiva de AlvaFusion Designs.
+Todos los derechos reservados. Este proyecto se encuentra en evolución constante.
+Política de Privacidad · Términos y Condiciones
