@@ -58,7 +58,7 @@ npm run dev
 
 Landing/blog: https://alvafusiondesigns.com (Astro)
 
-Tienda: https://alvafusiondesigns.com/tienda (WooCommerce)
+Tienda: https://cms.alvafusiondesigns.com (WooCommerce)
 
 ## 💡 Tecnologías Usadas
 
